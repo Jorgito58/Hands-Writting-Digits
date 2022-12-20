@@ -9,7 +9,7 @@ from streamlit_option_menu import option_menu
 import time
 
 #Loading Model
-model_new = keras.models.load_model('D:\\Software Development\\PythonLearning\\Curso-Python\\0. Python_Proyects\\HandsWritting_Numbers\\saved_model\\handsw_conv_model')
+model_new = keras.models.load_model('saved_model\\handsw_conv_model')
 
 
 image = Image.open("ia.jpg")
