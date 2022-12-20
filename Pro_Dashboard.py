@@ -25,11 +25,7 @@ with st.sidebar:
         orientation = "vertical",
     )
     st.write("By: 💻Wise_George")
-    with st.spinner("Loading..."):
-            time.sleep(2)
-            succ = st.success("✅Done!")
-            time.sleep(1)
-            succ.empty()
+   
 
     
 
