@@ -12,7 +12,7 @@ import time
 model_new = keras.models.load_model('saved_model/handsw_conv_model')
 
 
-image = Image.open("ia.jpg")
+
 st.set_page_config(page_title='Dashboard', page_icon = image, layout='wide')
 
 with st.sidebar:
