@@ -13,7 +13,7 @@ model_new = keras.models.load_model('saved_model/handsw_conv_model')
 
 
 
-st.set_page_config(page_title='Dashboard', page_icon = image, layout='wide')
+st.set_page_config(page_title='Dashboard', layout='wide')
 
 with st.sidebar:
     selected = option_menu(
