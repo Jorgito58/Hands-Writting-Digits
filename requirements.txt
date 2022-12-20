@@ -4,7 +4,7 @@ Pillow == 9.2.0
 keras == 2.10.0
 matplotlib == 3.5.3
 numpy == 1.23.3
-opencv_python == 4.6.0.66
+opencv-python-headless 
 pandas == 1.4.4
 st_annotated_text == 3.0.0
 streamlit == 1.13.0
