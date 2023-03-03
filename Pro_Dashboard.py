@@ -18,7 +18,7 @@ st.set_page_config(page_title='Dashboard', layout='wide')
 with st.sidebar:
     selected = option_menu(
         menu_title = "",
-        options = ["Software", "Code"],
+        options = ["Software"],
         icons = ["house", "book"],
         menu_icon = "cast",
         default_index = 0,
@@ -62,6 +62,3 @@ if selected == "Software":
             st.header("Result: {}".format(numbs[var]))
             st.header("")
             st.bar_chart(pred[0])
-
-if selected =="Code":
-    st.code("# Working On")
