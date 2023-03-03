@@ -9,7 +9,7 @@ from streamlit_option_menu import option_menu
 import time
 
 #Loading Model
-model_new = keras.models.load_model('saved_model/Best Digit Recognizer Model/Digit_recognizer.h5')
+model_new = keras.models.load_model('saved_model/Digit_recognizer.h5')
 
 
 
